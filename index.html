@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sathan | Full-Stack Developer & Freelancer</title>
+    <meta
+      name="description"
+      content="Sathan — Full-Stack Developer specializing in PHP, Python, JavaScript, and Machine Learning. Building enterprise web applications and open for freelancing."
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, Web Developer, PHP, Python, JavaScript, Freelancer, Portfolio"
+    />
+    <meta name="author" content="Sathan" />
+    <meta property="og:title" content="Sathan | Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full-Stack Developer specializing in PHP, Python, JavaScript, and ML. Open for opportunities."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#hero" class="nav-logo">&lt;Sathan /&gt;</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#hero" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available for Freelance & Internships
+          </div>
+          <h1>Hi, I'm <span class="gradient">Sathan</span></h1>
+          <div class="typed-wrapper">
+            <span id="typed"></span><span class="typed-cursor">|</span>
+          </div>
+          <p>
+            I build robust, scalable web applications and intelligent ML
+            solutions. From pixel-perfect frontends to powerful backends — I
+            deliver end-to-end digital experiences that drive results.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary"
+              ><i class="fas fa-rocket"></i> View My Work</a
+            >
+            <a href="#contact" class="btn btn-outline"
+              ><i class="fas fa-paper-plane"></i> Let's Talk</a
+            >
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-avatar">
+            <div class="placeholder-avatar">S</div>
+            <div class="floating-badge">
+              <i class="fas fa-code"></i> Full-Stack Dev
+            </div>
+            <div class="floating-badge">
+              <i class="fas fa-brain"></i> ML Enthusiast
+            </div>
+            <div class="floating-badge">
+              <i class="fas fa-laptop-code"></i> Web Developer
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-image reveal-left">
+          <div class="about-image-wrapper">
+            <div class="about-placeholder">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+          </div>
+          <div class="exp-badge">
+            <div class="num">2+</div>
+            <span>Years of<br />Experience</span>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <div class="section-tag">About Me</div>
+          <h3>
+            Passionate Developer Building
+            <span class="gradient">Digital Solutions</span>
+          </h3>
+          <p>
+            I'm a Full-Stack Developer with a passion for creating clean,
+            efficient, and user-centric web applications. With expertise
+            spanning PHP, Python, JavaScript, and modern frameworks, I bring
+            ideas to life — from concept to deployment.
+          </p>
+          <p>
+            My journey includes building enterprise-grade factory management
+            systems deployed for real companies, college admission portals, and
+            interactive web platforms. I believe in writing code that is not just
+            functional, but maintainable and scalable.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="num" data-count="5">0</div>
+              <label>Projects<br />Delivered</label>
+            </div>
+            <div class="stat">
+              <div class="num" data-count="3">0</div>
+              <label>Happy<br />Clients</label>
+            </div>
+            <div class="stat">
+              <div class="num" data-count="15">0</div>
+              <label>Technologies<br />Used</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">My Skills</div>
+          <h2 class="section-title">Technologies I Work With</h2>
+          <p class="section-desc">
+            A comprehensive toolkit built through real-world projects and
+            continuous learning.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-card-icon"><i class="fas fa-palette"></i></div>
+            <h3>Frontend Development</h3>
+            <div class="skill-list">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">Bootstrap</span>
+              <span class="skill-pill">Responsive Design</span>
+              <span class="skill-pill">SASS</span>
+              <span class="skill-pill">Chart.js</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-icon"><i class="fas fa-server"></i></div>
+            <h3>Backend Development</h3>
+            <div class="skill-list">
+              <span class="skill-pill">PHP</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Flask</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">Express.js</span>
+              <span class="skill-pill">Authentication</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-icon"><i class="fas fa-database"></i></div>
+            <h3>Database & Cloud</h3>
+            <div class="skill-list">
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Supabase</span>
+              <span class="skill-pill">Firebase</span>
+              <span class="skill-pill">phpMyAdmin</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-icon"><i class="fas fa-brain"></i></div>
+            <h3>Machine Learning & AI</h3>
+            <div class="skill-list">
+              <span class="skill-pill">XGBoost</span>
+              <span class="skill-pill">Scikit-Learn</span>
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NumPy</span>
+              <span class="skill-pill">Data Analysis</span>
+              <span class="skill-pill">Model Deployment</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+            <h3>Tools & DevOps</h3>
+            <div class="skill-list">
+              <span class="skill-pill">Git & GitHub</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">XAMPP</span>
+              <span class="skill-pill">Postman</span>
+              <span class="skill-pill">Linux</span>
+              <span class="skill-pill">Figma</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card-icon"><i class="fas fa-paint-brush"></i></div>
+            <h3>UI/UX & Design</h3>
+            <div class="skill-list">
+              <span class="skill-pill">Responsive Design</span>
+              <span class="skill-pill">Dark/Light Themes</span>
+              <span class="skill-pill">Glassmorphism</span>
+              <span class="skill-pill">CSS Animations</span>
+              <span class="skill-pill">User Experience</span>
+              <span class="skill-pill">Figma Basics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Portfolio</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">
+            Real-world applications I've built from scratch, solving actual
+            problems.
+          </p>
+        </div>
+        <div class="project-filters reveal">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+          <button class="filter-btn" data-filter="enterprise">Enterprise</button>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: Textile Management -->
+          <div class="project-card reveal" data-category="web fullstack enterprise">
+            <div class="project-thumb" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+              <div class="project-thumb-placeholder"><i class="fas fa-industry"></i><span>Enterprise</span></div>
+              <div class="project-overlay">
+                <a href="#" title="Private Project"><i class="fas fa-lock"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Textile Management System <span style="font-size:0.7rem; background:rgba(108,92,231,0.2); padding:3px 10px; border-radius:20px; color:var(--accent); vertical-align:middle;">Private</span></h3>
+              <p>Complete factory management solution deployed for 2-3 textile companies. Manages worker information, machine counts, daily production data entry, department-wise reports with data visualization, and admin controls. Designed and customized per company requirements.</p>
+              <div class="project-tech">
+                <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Chart.js</span><span>CRUD</span><span>Auth System</span><span>Multi-tenant</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: E-Admission Portal -->
+          <div class="project-card reveal" data-category="web fullstack">
+            <div class="project-thumb" style="background: linear-gradient(135deg, #032b43 0%, #136f9c 50%, #00b4d8 100%);">
+              <div class="project-thumb-placeholder"><i class="fas fa-graduation-cap"></i><span>Admission Portal</span></div>
+              <div class="project-overlay">
+                <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/sathan1" title="Source Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Admission Management Portal</h3>
+              <p>Digital admission management portal built for a college. Handles online application submission, document uploads, application tracking, merit list generation, seat allocation, and admin dashboard for managing the entire admission lifecycle.</p>
+              <div class="project-tech">
+                <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>File Upload</span><span>Admin Panel</span><span>PDF Reports</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Quiz & Leaderboard -->
+          <div class="project-card reveal" data-category="web fullstack">
+            <div class="project-thumb" style="background: linear-gradient(135deg, #1a0a2e 0%, #3a1c71 50%, #d76d77 100%);">
+              <div class="project-thumb-placeholder"><i class="fas fa-trophy"></i><span>Quiz Platform</span></div>
+              <div class="project-overlay">
+                <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/sathan1" title="Source Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Interactive Quiz & Leaderboard</h3>
+              <p>Full-featured quiz platform with real-time scoring, global and event-based leaderboards, automated certificate generation for winners and participants, admin panel for question management, and gamification elements.</p>
+              <div class="project-tech">
+                <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Real-time Scoring</span><span>PDF Certificates</span><span>Gamification</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Services</div>
+          <h2 class="section-title">What I Can Do For You</h2>
+          <p class="section-desc">
+            Professional services tailored for startups, businesses, and fellow
+            developers.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Web Application Development</h3>
+            <p>
+              Full-stack web applications with modern UI, robust backends, and
+              optimized databases. From landing pages to complex SaaS platforms.
+            </p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon"><i class="fas fa-cogs"></i></div>
+            <h3>API Development & Integration</h3>
+            <p>
+              RESTful API design, third-party integrations, payment gateways,
+              and backend architecture built for scalability and security.
+            </p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Data & ML Solutions</h3>
+            <p>
+              Data analysis, predictive modeling, and ML-powered features. From
+              data cleaning to model deployment with user-friendly interfaces.
+            </p>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Database Design & Management</h3>
+            <p>
+              Efficient database architecture, MySQL optimization, data
+              migration, backup strategies, and admin panels for managing
+              complex data workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Journey</div>
+          <h2 class="section-title">Experience & Education</h2>
+          <p class="section-desc">
+            My path in tech — from learning the basics to building real
+            solutions.
+          </p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-date">2025 - Present</div>
+            <h3>Freelance Full-Stack Developer</h3>
+            <h4>Self-Employed</h4>
+            <p>
+              Building custom web applications, dashboards, and ML solutions for
+              clients. Specializing in PHP/MySQL projects and Python-based data
+              tools.
+            </p>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-date">2024 - Present</div>
+            <h3>Web Development & Client Projects</h3>
+            <h4>Self-Initiated & Client Work</h4>
+            <p>
+              Built real-world production applications — textile management systems deployed for 2-3 companies, college admission portal, quiz platform with leaderboards and certificate generation. Full-stack PHP/MySQL/JavaScript.
+            </p>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-date">2022 - Present</div>
+            <h3>B.Tech / B.E. in Computer Science</h3>
+            <h4>University</h4>
+            <p>
+              Studying computer science fundamentals, data structures,
+              algorithms, database management, and software engineering while
+              actively building real-world projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Feedback</div>
+          <h2 class="section-title">What People Say</h2>
+          <p class="section-desc">
+            Feedback from clients and collaborators I've worked with.
+          </p>
+        </div>
+        <div class="testimonials-wrapper reveal">
+          <div class="testimonial-track" id="testimonialTrack">
+            <div class="testimonial-card">
+              <p class="quote">
+                Delivered a complex dashboard system that exceeded our
+                expectations. The attention to detail in both frontend and
+                backend was impressive. Highly recommended for web application
+                projects.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">R</div>
+                <div class="testimonial-author-info">
+                  <h4>Rahul K.</h4>
+                  <span>Factory Manager, Textile Industry</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <p class="quote">
+                The admission portal streamlined our entire enrollment process.
+                Application tracking, merit list generation, and the admin
+                dashboard made our work so much easier. Professional delivery.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">P</div>
+                <div class="testimonial-author-info">
+                  <h4>Prof. Kumar</h4>
+                  <span>College Administrator</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <p class="quote">
+                The quiz and leaderboard system was exactly what we needed for
+                our training program. Real-time scoring and certificate
+                generation saved us hours of manual work.
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">A</div>
+                <div class="testimonial-author-info">
+                  <h4>Arun M.</h4>
+                  <span>HR Training Lead</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-dots" id="testimonialDots">
+            <button class="dot active" data-index="0"></button>
+            <button class="dot" data-index="1"></button>
+            <button class="dot" data-index="2"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-info reveal-left">
+          <div class="section-tag">Get In Touch</div>
+          <h3>Let's Work <span class="gradient">Together</span></h3>
+          <p>
+            Have a project in mind or want to discuss an opportunity? I'm always
+            open to new collaborations and challenges. Drop me a message!
+          </p>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:sathancreator@gmail.com">sathancreator@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Tamil Nadu, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+919345556106">+91 93455 56106</a>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/sathan1" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sathandhurkes-d-90a66928b/" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/sathxn._void" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <form
+          class="contact-form reveal-right"
+          id="contactForm"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+        >
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Project Inquiry"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="nav-logo">&lt;Sathan /&gt;</a>
+            <p>
+              Full-Stack Developer & ML Enthusiast building digital solutions
+              that make an impact. Always open to learning and new challenges.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-links">
+            <h4>Services</h4>
+            <a href="#services">Web Development</a>
+            <a href="#services">API Integration</a>
+            <a href="#services">ML Solutions</a>
+            <a href="#services">Database Design</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Sathan. All rights reserved.</p>
+          <p>
+            Built with
+            <i class="fas fa-heart" style="color: var(--accent)"></i> and lots
+            of ☕
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
