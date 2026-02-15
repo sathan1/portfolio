@@ -465,10 +465,7 @@ section {
 
 /* ===== ABOUT ===== */
 .about .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
+  display: block;
 }
 .about-image {
   position: relative;
@@ -524,7 +521,7 @@ section {
 }
 .about-stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   padding: 24px;
   border-radius: var(--radius-md);
